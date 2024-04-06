@@ -1,0 +1,32 @@
+﻿.tablero{
+  max-width: 30em;
+  margin: auto;
+  margin-top: 3em;
+}
+
+.casilla{
+  height: 100px;
+  text-align: center; 
+  font-size: 2em;
+  padding: 1em;
+  color: lightgray;
+}
+
+.ocupado{
+  color: black;
+}
+
+.ganador{
+  background-color: lightgreen;
+  color: darkgreen;
+}
+
+.B1{
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.B2{
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
